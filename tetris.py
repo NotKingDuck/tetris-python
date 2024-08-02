@@ -182,7 +182,7 @@ while not done:
             if event.key == pygame.K_DOWN:
                 pressing_down = False
 
-    screen.fill(WHIE)
+    screen.fill(WHITE)
 
     for i in range(game.height):
         for j in range(game.width):
