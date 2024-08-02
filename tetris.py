@@ -204,8 +204,8 @@ while not done:
     font = pygame.font.SysFont('Calibri', 25, True, False)
     font1 = pygame.font.SysFont('Calibri', 65, True, False)
     text = font.render("Score: " + str(game.score), True, BLACK)
-    text_game_over = font1.render("Game Over", True, (255, 255, 255))
-    text_game_over1 = font1.render("Press ESC", True, (255, 255, 255))
+    text_game_over = font1.render("Game Over", True, (0, 0, 0))
+    text_game_over1 = font1.render("Press ESC", True, (0, 0, 0))
 
     screen.blit(text, [0, 0])
     if game.state == "gameover":
